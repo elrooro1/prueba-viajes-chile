@@ -3,13 +3,25 @@
 }
 .nav-item {
     font-size: 22px;
-}
+    font-family: sans-serif;
+} 
 .dark {
     background-color: #000;
     color: #fff; 
     text-align: center; 
-    padding: 50px; 
-}
-.margen {
+
+} 
+.margen{
     margin-top: 40px;
+
+}
+
+.formulario-contacto {
+    padding-bottom: 20px; 
+}
+#quienes-somos {
+    margin-top: 100px;
+}
+#destacados-marg{
+    margin-top: 100px;
 }
