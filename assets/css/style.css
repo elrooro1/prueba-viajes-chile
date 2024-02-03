@@ -1,0 +1,12 @@
+#letra {
+    font-size: 30px;
+}
+.nav-item {
+    font-size: 22px;
+}
+.dark {
+    background-color: #000;
+    color: #fff; 
+    text-align: center; 
+    padding: 50px; 
+   }
