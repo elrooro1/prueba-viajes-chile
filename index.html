@@ -101,7 +101,9 @@
 
     </div>
     <section class="container">
+        <h1>destacados</h1>
         <div class="row row-cols-1 row-cols-md-4 g-4">
+            
             <div class="col">
                 <div class="card h-100">
                     <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
@@ -144,10 +146,31 @@
             </div>
         </div>
     </section>
-    
-    
 
 
+<section>
+    <h2 class="margen">contacto</h2>
+    <hr>
+    <div class="container text-center">
+        <div class="mb-3 text-start">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre completo">
+        </div>
+        <div class="mb-3 text-start">
+            <label for="asunto" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="asunto" placeholder="Asunto del mensaje">
+        </div>
+        <div class="mb-3 text-start">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje aquí"></textarea>
+            
+            <!-- Botón Enviar con Tooltip arriba -->
+            <button type="button" class="btn btn-info mt-3 float-start" data-toggle="tooltip" data-placement="top" title="Haz clic para enviar tu mensaje"onclick="enviarMensaje()">Enviar</button>
+        </div>
+    </div>
+    
+    
+    
 
 
 
@@ -179,5 +202,8 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="crossorigin="anonymous"></script>
 <!-- js-->
 <script src="/assests/js/script.js"></script>
+
+
+
 </body>
 </html>
